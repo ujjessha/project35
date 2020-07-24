@@ -1,7 +1,7 @@
 class Form{
     constructor(){
-        this.button1=createButton("YES");
-        this.button2=createButton("NO");
+        this.button1=createRadio("YES");
+        this.button2=createRadio("NO");
         this.input=createInput("EMAIL ID");
         this.question=createElement('h2');
         this.title=createElement('h2');
